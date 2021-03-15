@@ -1,15 +1,15 @@
-переработанная версия автора 
+РїРµСЂРµСЂР°Р±РѕС‚Р°РЅРЅР°СЏ РІРµСЂСЃРёСЏ Р°РІС‚РѕСЂР° 
  *  @author     Stefan Gabos <contact@stefangabos.ro>
  *  @version    1.9.18 (last revision: December 31, 2020)
 
-исправлены ошибки, например строка 632
+РёСЃРїСЂР°РІР»РµРЅС‹ РѕС€РёР±РєРё, РЅР°РїСЂРёРјРµСЂ СЃС‚СЂРѕРєР° 632
 // (or this won't work when doing $.inArray(): enabled_hours: ['11', '12', '13'])
 if ($.isArray(plugin.settings.enabled_hours)) plugin.settings.enabled_hour = plugin.settings.enabled_hours.map(function(value) { return parseInt(value, 10); })
-исправлена 
+РёСЃРїСЂР°РІР»РµРЅР° 
 if ($.isArray(plugin.settings.enabled_hours)) plugin.settings.enabled_hours= plugin.settings.enabled_hours.map(function(value) { return parseInt(value, 10); })
-и т.д.
-добавлены новые возможнсти. Например если в input ведется учет количества дней (а не самих дат) до события. 
-событие можно выбирать календарем, результат выводится как разница дней. 
-и т.д.
+Рё С‚.Рґ.
+РґРѕР±Р°РІР»РµРЅС‹ РЅРѕРІС‹Рµ РІРѕР·РјРѕР¶РЅСЃС‚Рё. РќР°РїСЂРёРјРµСЂ РµСЃР»Рё РІ input РІРµРґРµС‚СЃСЏ СѓС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РґРЅРµР№ (Р° РЅРµ СЃР°РјРёС… РґР°С‚) РґРѕ СЃРѕР±С‹С‚РёСЏ. 
+СЃРѕР±С‹С‚РёРµ РјРѕР¶РЅРѕ РІС‹Р±РёСЂР°С‚СЊ РєР°Р»РµРЅРґР°СЂРµРј, СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹РІРѕРґРёС‚СЃСЏ РєР°Рє СЂР°Р·РЅРёС†Р° РґРЅРµР№. 
+Рё С‚.Рґ.
 
-работа автора Stefan Gabos <contact@stefangabos.ro> - выше всех похвал !!!
+СЂР°Р±РѕС‚Р° Р°РІС‚РѕСЂР° Stefan Gabos <contact@stefangabos.ro> - РІС‹С€Рµ РІСЃРµС… РїРѕС…РІР°Р» !!!
